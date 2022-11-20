@@ -15,7 +15,6 @@ a. Lexemes
 	signed_int : : = [sign] Integer
 	real:= signed_int [fraction] [exponent]
 	fraction ::= . digit+
-	exponent ::= (E|e) signed_in
 
 -Program ::= (Token | Whitespace)*  	
 -ID ::= Letter (Letter | Digit)*	
