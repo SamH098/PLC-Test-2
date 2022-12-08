@@ -1,0 +1,28 @@
+Begin #
+	nums j 	 ->This declases j as an interger.
+	again nums i=10 	-> again loops the interger i 10 times 
+	j= i+1	->evrytime i updates, 1 is added to it 
+	printL"j"esc*n $	->this prints the value of J with an escape character for new line 
+
+	Sentence test= "This sentence is the representation of a string"
+	printL"test"esc*n $ 	->this prints the value of test with an escape character for new line 
+
+	shortSen char =' b' 	-> this takes in a character 
+	printL" char" esc*n $	->this prints the value of char with an escape character for new line 
+	
+	nums a= 15
+	sentence kent= " this is a test"
+
+	travel < a		->travel is used like a while loop
+	printL" kent"$	-> prints out everytime it goes through it  
+	a ++		->cycles through the loop 
+	
+	Done 		-> ends the travels when it's done cying through
+	
+	shortest t= 120
+	shorter c=64356
+	longer v= 11111111
+	printL" shortest+ esc*t + shorter + esc*t + longer"$
+	
+	
+@ End

@@ -1,0 +1,28 @@
+Begin #
+	nubems j 
+	again nubems i=10 	 
+	j= i+1	
+	printL"j"esc*n $	
+
+	Sentence test= "This sentence is the representation of a string"
+	printL"test"esc*n $ 	
+
+	shortSen char ="b' 	 	->->Lexical error  wrong quotation used
+	printL" char" esc* $		->Lexical error incomplete escape character
+	
+	nubems a= 15
+	sentence kent= " this is a test"
+
+	travel < a		
+	printL" kent"#	->Lexical error wrong identifier for ending print 
+	a ++		 
+	
+	Done 		
+	
+	shortest t= 120637383 	->Lexical error exceding byte length
+	shorter c=64356
+	longer v= 11111111
+	prntL" shortest+ esc*t + shorter + esc*t + longer"$ 	->Lexical error misspled print statement
+	
+	
+@ End
